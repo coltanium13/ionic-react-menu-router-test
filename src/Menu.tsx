@@ -14,7 +14,7 @@ import {
 } from '@ionic/react';
 
 const Menu: React.FC = () => (
-  <IonMenu contentId="main-content">
+  <IonMenu contentId="main-content-must-be-same">
     <IonHeader>
       <IonToolbar color="primary">
         <IonTitle>Menu</IonTitle>

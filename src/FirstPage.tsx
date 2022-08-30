@@ -1,10 +1,10 @@
 import { IonButton, IonButtons, IonContent, IonHeader, IonIcon, IonMenuToggle, IonPage, IonTitle, IonToolbar } from "@ionic/react";
-import React=require("react");
+import React from 'react'
 
 
 const FirstPage: React.FC = () => (
 
-  <IonPage className="ion-page" id="main-content">
+  <IonPage className="ion-page" id="main-content-must-be-same">
     <IonHeader>
       <IonToolbar>
         <IonButtons slot="start">
